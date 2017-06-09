@@ -1,0 +1,13 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+//Import
+@import "base", "mixin", "typography", "layout", "syntax.scss", "custom.scss";
+.site-info {
+    text-align: center;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
