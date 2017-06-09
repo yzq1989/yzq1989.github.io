@@ -1,0 +1,38 @@
+# Site settings
+title: beyondYzq 简单生活
+description: "beyondYzq blog."
+url: "http://www.yangzeqiang.com"
+author:
+  name: "yang zeqiang"
+  email: "yangzeqiang1989@gmail.com"
+  url: "http://www.yangzeqiang.com"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
